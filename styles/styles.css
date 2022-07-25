@@ -1,0 +1,79 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fdf4d5;
+}
+
+footer{
+    background-color: #fcb041;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    padding: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.nav-bottom{
+    background-color: #fcb041;
+    display: block;
+    max-width: 60px;
+    margin-right: 12px;
+}
+
+/** COLOR STYLES **/
+
+.c-purple-40 {
+    background-color: rgba(47, 6, 96, 0.4);
+}
+
+.c-orange-100{
+    background-color: #fcb041;
+}
+
+/** IMAGE STYLES **/
+
+.logo{
+    max-width: 60%;
+}
+.primary-photo{
+    max-width: 150px;
+    border-radius: 50%;
+    border-color: #4F7D9C;
+    border-style: solid;
+    border-width: 4px;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+    /** SEMANTIC STYLES **/
+
+h2{
+    font-size: 12pt;
+}
+
+p{
+    font-size: 10;
+}
+
+/** SPACING STYLES **/
+
+.m-bottom-100{
+    margin-bottom: 100px;
+}
+
+.mh-carousel{
+    max-height: 205px;
+}
+
+.menu-bottom{
+    position: fixed;
+    bottom: 75px;
+    margin-left: auto;
+}
